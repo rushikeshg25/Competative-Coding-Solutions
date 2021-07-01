@@ -1,18 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int test()
-{
-    int x;
-    x=2;
-    return x;
-}
 int main()
 {
-	
+    int a[]={1,4,6,7,3,0};
+    sort(a,a+size(a));
 
-    int y=test();
-    cout<<y;
-
-	return 0;
+    for(int i=0;i<size(a);i++)
+    {
+        cout<<a[i]<<endl;
+    }
 }
